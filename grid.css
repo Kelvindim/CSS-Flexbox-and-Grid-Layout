@@ -52,7 +52,6 @@ section div{
 .box1{
   background-color: #eb5020;
   grid-area: a;
-  height: 30px;
 }
 .box2{
   background-color: #ffa401;

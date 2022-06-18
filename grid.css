@@ -31,18 +31,16 @@ main{
   display: flex;
   place-items: center;
   min-height: 100vh;
-  
 }
 
 section{
   display: grid;
   grid-template-areas:
-  'a a a a b b'
-  'a a a a b b'
-  'c c d d d d'
-  'c c e e e e';
-  gap: 10px;
-  width: 50%;
+  'a a a b'
+  'c c d d'
+  'c c e e';
+  gap: 8px;
+  width: 80%;
   margin: auto;
 }
 
@@ -54,10 +52,11 @@ section div{
 .box1{
   background-color: #eb5020;
   grid-area: a;
+  height: 30px;
 }
 .box2{
   background-color: #ffa401;
-  grid-area: b;
+  grid-area: b;  
 }
 .box3{
   background-color: #05aa42;
